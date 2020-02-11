@@ -14,7 +14,7 @@ def run_guessing_game
     #puts "Sorry! The computer guessed #{num}."
   #end
 
-  rando = rand(6)+1
+  num = rand(6)+1
   puts "Guess a number between 1 and 6:"
   input = gets.chomp
   if input == rando.to_s
